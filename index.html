@@ -161,11 +161,11 @@
     </header>
     <main class="md:container md:max-auto">
       <!-- feature bike -->
-      <section>
-        <div class="py-[130px]">
-          <h2 class="text-center text-5xl font-bold">Fetured Bikes In This Year</h2>
+      <section class="my-24">
+        <div class="py-4 lg:py-[130px]">
+          <h2 class="text-center text-4xl lg:text-5xl font-bold">Fetured Bikes In This Year</h2>
           <p class="text-center text-sm text-[#E76F51] py-4">Best bike collection</p>
-          <div class="p4 lg:p-20 flex justify-between">
+          <div class="p4 lg:p-20 grid grid-cols-1 lg:grid-cols-3">
             <img src="images/others/feature-bike.png" alt="">
             <img src="images/others/feature-bike.png" alt="">
             <img src="images/others/feature-bike.png" alt="">
@@ -173,10 +173,10 @@
         </div>
       </section>
       <!-- latest bike -->
-      <section>
+      <section class="my-24">
         <div>
           <h2 class="font-bold text-5xl text-center pb-[50px]">Latest News</h2>
-          <div class="grid grid-cols-3 gap-5">
+          <div class="grid px-4 justify-center grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
             <!-- card 1 -->
             <div class="card bg-base-100 shadow-xl">
               <figure><img src="images/others/latest1.png" alt="bike" /></figure>
@@ -213,8 +213,158 @@
           </div>
         </div>
       </section>
+      <!-- happy client -->
+      <section class="my-24">
+        <div class="py-30">
+          <h2 class="font-bold text-5xl mb-12 text-center">Happy <span class="text-[#E76F51]">Clients Says</span></h2>
+          <div class="grid grid-cols-1 lg:grid-cols-3 gap-10">
+            <!-- first card -->
+            <div class="card bg-base-100 shadow-xl p-3 lg:p-9">
+              <figure><img class="w-[149px]" src="images/others/user-1.png" alt="user" /></figure>
+              <div class="card-body">
+                <p>Slate helps you see how 
+                  many more days you need 
+                  to work to reach your financial 
+                  goal for the month and year.</p>
+                <div class="space-y-4">
+                  <div class="rating">
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                  </div>
+                  <h4 class="text-[#23A6F0] text-sm">Regina Miles</h4>
+                  <p class="text-sm font-semibold">Banker</p>
+                </div>
+              </div>
+            </div>
+            <!-- second card -->
+            <div class="card bg-base-100 shadow-xl p-3 lg:p-9">
+              <figure><img class="w-[149px]" src="images/others/user-2.png" alt="user" /></figure>
+              <div class="card-body">
+                <p>Slate helps you see how 
+                  many more days you need 
+                  to work to reach your financial 
+                  goal for the month and year.</p>
+                <div class="space-y-4">
+                  <div class="rating">
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                  </div>
+                  <h4 class="text-[#23A6F0] text-sm">Regina Miles</h4>
+                  <p class="text-sm font-semibold">Banker</p>
+                </div>
+              </div>
+            </div>
+            <!-- third card -->
+            <div class="card bg-base-100 shadow-xl p-3 lg:p-9">
+              <figure><img class="w-[149px]" src="images/others/user-3.png" alt="user" /></figure>
+              <div class="card-body">
+                <p>Slate helps you see how 
+                  many more days you need 
+                  to work to reach your financial 
+                  goal for the month and year.</p>
+                <div class="space-y-4">
+                  <div class="rating">
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                  </div>
+                  <h4 class="text-[#23A6F0] text-sm">Regina Miles</h4>
+                  <p class="text-sm font-semibold">Banker</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- faq secton -->
+      <section class="my-24">
+        <h2 class="font-bold text-5xl mb-12 text-center">Frequently Asked  <span class="text-[#E76F51]">Questions</span></h2>
+        <div class="hero  ">
+          <div class="hero-content flex-col lg:gap-20 lg:flex-row">
+            <img src="images/others/faq.png" class="w-1/2 lg:max-w-sm rounded-lg shadow-2xl" />
+            <!-- accordion -->
+            <div>
+              <!-- one -->
+              <div class="collapse collapse-arrow mb-4">
+                <input type="radio" name="my-accordion-2" checked="checked" /> 
+                <div class="collapse-title text-xl font-medium">
+                  What are the most important things I should
+                  know about riding a bike?
+                </div>
+                <div class="collapse-content"> 
+                  <p>Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider. </p>
+                </div>
+              </div>
+              <!-- two -->
+              <div class="collapse collapse-arrow ">
+                <input type="radio" name="my-accordion-2" /> 
+                <div class="collapse-title text-xl font-medium">
+                  How can I tell if my helmet is old and I need a 
+                  new one?
+                </div>
+                <div class="collapse-content"> 
+                  <p>Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider. </p>
+                </div>
+              </div>
+              <!-- three -->
+              <div class="collapse collapse-arrow ">
+                <input type="radio" name="my-accordion-2" /> 
+                <div class="collapse-title text-xl font-medium">
+                  My bike has been in storage is it safe to ride?
+                </div>
+                <div class="collapse-content"> 
+                  <p>Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider. </p>
+                </div>
+              </div>
+              <!-- four -->
+              <div class="collapse collapse-arrow ">
+                <input type="radio" name="my-accordion-2" /> 
+                <div class="collapse-title text-xl font-medium">
+                  What rules should I follow when riding my bike?
+                </div>
+                <div class="collapse-content"> 
+                  <p>Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider. </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
-
+    <!-- footer section -->
+    <footer class="footer p-10 bg-neutral text-neutral-content">
+      <aside class="space-y-4">
+        <div class="flex gap-5">
+          <p>Download</p>
+          <p>Licence</p>
+        </div>
+        <div class="flex gap-4">
+          <p>About</p>
+          <p>Feature</p>
+          <p>Pricing</p>
+          <p>Career</p>
+          <p>Help</p>
+          <p>Pricacy policy</p>
+        </div>
+        <p>© 2020 bike. All rights reserved</p>
+      </aside> 
+      <nav>
+        <header class="footer-title">Get the app</header> 
+        <div class="grid grid-cols-1 gap-4">
+          <a><img class="w-32" src="images/others/ios.png" alt="ios"></a>
+          <a><img class="w-32" src="images/others/android.png" alt="android"></a>
+          
+        </div>
+      </nav>
+    </footer>
 </body>
 
 </html>
